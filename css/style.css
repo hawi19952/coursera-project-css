@@ -9,6 +9,7 @@ header {
 
 nav {
   background-color: #ff0101;
+  display: inline-block;
 }
 
 main {
@@ -32,4 +33,29 @@ h1 {
 
 p {
   line-height: 2.0;
+}
+
+nav img {
+  width: 10%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2px;
+}
+
+img.grid {
+  width: 100%;
+}
+
+.goto {
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
 }
